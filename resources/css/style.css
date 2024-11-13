@@ -1,0 +1,36 @@
+.headerCustom{
+    background: linear-gradient(rgba(95,95,95,0.8), rgba(20,20,20,0.8)), url('/public/header.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    background-attachment: fixed;
+}
+
+h1{
+    text-shadow: 1px 1px 25px white;
+    font-size: 150px;
+    font-family: "Kanit";
+}
+
+*{
+    font-family: "Roboto Mono";
+}
+
+.bg-custom{
+    color:white;
+    background-color: rgba(20, 20, 20, 0.924);
+}
+
+.navLink{
+ color: whitesmoke;   
+}
+
+body{
+    background: linear-gradient(rgba(95,95,95,0.8), rgba(20,20,20,0.8)), url('/public/body2.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
