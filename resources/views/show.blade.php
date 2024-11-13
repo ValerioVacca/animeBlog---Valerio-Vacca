@@ -18,7 +18,7 @@
                     @endforeach
                 </ul>
 
-                <p class="fs-4">Numero di episodi: {{$anime['episodes']}}</p>
+                <p class="fs-4">Numero di episodi: {{$anime['episodes'] ?? 'non è dato sapere'}}</p>
                 <p class="fs-4">Sinossi:</p>
                 <p>{{$anime['synopsis']}} </p>
 

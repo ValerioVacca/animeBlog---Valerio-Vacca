@@ -10,7 +10,7 @@
             <a class="nav-link navLink" aria-current="page" href="{{route('homepage')}}">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link navLink" href="#">Link</a>
+            <a class="nav-link navLink" href="{{route('API')}}">anime API</a>
           </li>
         </ul>
       </div>
